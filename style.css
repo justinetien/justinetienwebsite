@@ -1,0 +1,73 @@
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    padding: 0px 38px;
+    font-family: 'Josefin Sans', Times, serif;
+}
+
+h1 {
+	font-family: 'Dancing Script', Georgia, Times, serif;
+	font-size: 59px;
+	line-height: 60px;
+}
+ 
+p {
+	font-family: 'Josefin Sans', Times, serif;
+	font-size: 18px;
+	line-height: 25px;
+	margin-top: 15px;
+}
+
+#logo {
+    display: inline;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 3px;
+    vertical-align: middle;
+    line-height: 56px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    letter-spacing: 1px;
+    vertical-align: middle;
+    line-height: 56px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.about h2 {
+    font-family: 'Times New Roman', Georgia, serif;
+    text-align: center;
+    float: middle;
+    letter-spacing: 1px;
+    line-height: 60px;
+}
+
+.about p {
+    font-family: 'Josefin-Sans', Times, serif;
+    text-align: center;
+    float: middle;
+    line-height: 30px;
+    padding: 0px 370px;
+}
